@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    transition: all 0.4s linear;
+}
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.skillbar-bar {
+    height: 35px;
+    width: 0;
+    border-radius: 3px;
+}
+.skillbar-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #444;
+}
+
+
+
+.sk1 .skillbar-title {
+    background: #88cd2a;
+}
+.sk1 .skillbar-bar {
+    background: #88cd2a;
+}
+.sk2 .skillbar-title {
+    background: #f05f1c;
+}
+.sk2 .skillbar-bar {
+    background: #f05f1c;
+}
+.sk3 .skillbar-title {
+    background: #25ddeb;
+}
+.sk3 .skillbar-bar {
+    background: #25ddeb;
+}
+.sk4 .skillbar-title {
+    background: #e4e01a;
+}
+.sk4 .skillbar-bar {
+    background: #e4e01a;
+}
+.sk5 .skillbar-title {
+    background: #f80909;
+}
+.sk5 .skillbar-bar {
+    background: #f80909;
+}
+.sk5 .skillbar-title {
+    background: #081486;
+}
+.sk5 .skillbar-bar {
+    background: #081486;
+}
+.sk6 .skillbar-title {
+    background: #df18e6;
+}
+.sk6 .skillbar-bar {
+    background: #df18e6;
+}
+.sk7 .skillbar-title {
+    background: #0fda96;
+}
+.sk7 .skillbar-bar {
+    background: #0fda96;
+}
+.sk8 .skillbar-title {
+    background: #1fff02;
+}
+.sk8 .skillbar-bar {
+    background: #1fff02;
+}
+.sk9 .skillbar-title {
+    background: #e77e7e;
+}
+.sk9 .skillbar-bar {
+    background: #e77e7e;
+}
+.sk10 .skillbar-title {
+    background: #06ecd9;
+}
+.sk10 .skillbar-bar {
+    background: #06ecd9;
+}
+.sk11 .skillbar-title {
+    background: #ec0606;
+}
+.sk11 .skillbar-bar {
+    background: #ec0606;
+}

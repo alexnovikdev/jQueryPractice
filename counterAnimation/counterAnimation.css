@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    padding: 25px;
+    background: #f5f5f5;
+    color: #808080;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 100px;
+}
+.col-fourth {
+    width: 23%;
+    position: relative;
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px 0;
+    border-radius: 25px;
+}
+.col-fourth.end {
+    margin-right: 0;
+}
+.wrapper {
+    max-width: 980px;
+    margin: 30px auto;
+    position: relative;
+}
+.count-text {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
